@@ -31,7 +31,7 @@ body {
   font-family: Slack-Averta,appleLogo,sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-  
+
 }
 
 body {
@@ -45,6 +45,15 @@ body {
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 
 }
+
+.bee img {
+    padding-right: 20px;
+}
+
+a.btn-secondary {
+    margin: 2px;
+}
+
 h1.cover-heading{
   font-family: 'Georgia', sans-serif;
   font-size: 60px;
