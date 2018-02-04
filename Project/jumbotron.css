@@ -1,0 +1,63 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#classrooms {
+    margin-left: 20px;
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.5);
+}
+
+#classrooms:hover {
+    background-color: #fff;
+    color: rgb(44, 195, 153);
+    border-color: rgb(44, 195, 153);
+}
+
+h1.display-3 {
+    font-family: 'Georgia', 'Times New Roman', sans-serif;
+    font-weight: bold;
+}
+
+a.nav-link {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ul.navbar-nav > li.nav-item > a.nav-link:hover {
+    color: rgb(44, 195, 153);
+}
+
+.bee img {
+    width: 90%;
+    height: 90%;
+}
+
+.bee-descrip {
+    padding-top: 170px;
+}
+
+.jumbotron {
+    padding: 50px 20px 20px 20px;
+    margin-bottom: 10px;
+}
+
+p.lead > a.btn-primary.btn-lg {
+    background-color: rgb(44, 195, 153);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+p.lead > a.btn-primary.btn-lg:hover {
+    background-color: rgb(40, 183, 143);
+}
+
+.lead > .btn-primary {
+    border-style: none;
+}

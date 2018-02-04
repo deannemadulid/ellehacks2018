@@ -54,6 +54,10 @@ a.btn-secondary {
     margin: 2px;
 }
 
+#classrooms {
+    margin-left: 20px;
+    color: rgb(44, 195, 153);
+}
 
 h1.cover-heading{
   font-family: 'Georgia', sans-serif;
@@ -98,9 +102,11 @@ p.lead{
   margin-left: 1rem;
 }
 
-.nav-masthead .active {
-  color: #000;
+.nav-masthead .active, .nav-link {
+  color: rgb(44, 195, 153);
   border-bottom-color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 @media (min-width: 48em) {
